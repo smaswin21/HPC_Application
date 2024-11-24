@@ -1,0 +1,17 @@
+Execution time for parallel version: 1.352164 seconds
+[node4:199531] *** Process received signal ***
+[node4:199531] Signal: Segmentation fault (11)
+[node4:199531] Signal code: Address not mapped (1)
+[node4:199531] Failing at address: 0x7ffc012c0000
+[node4:199531] [ 0] /cvmfs/soft.computecanada.ca/gentoo/2020/lib64/libpthread.so.0(+0x130f0)[0x1471042e00f0]
+[node4:199531] [ 1] ./heat_parallel[0x4013f2]
+[node4:199531] [ 2] /cvmfs/soft.computecanada.ca/gentoo/2020/lib64/libc.so.6(__libc_start_main+0xeb)[0x147103e69e1b]
+[node4:199531] [ 3] ./heat_parallel[0x400caa]
+[node4:199531] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 199531 on node node4 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

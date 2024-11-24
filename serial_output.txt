@@ -1,0 +1,1 @@
+Execution time for serial version: 2.830181 seconds
